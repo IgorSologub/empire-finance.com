@@ -1,0 +1,7 @@
+tests\order\OrderTest.class
+tests\base\BaseTest.class
+tests\mortgage\MortgageTest.class
+tests\main\MainTest.class
+tests\team\TeamTest.class
+tests\loans\LoansTest.class
+tests\creditLoans\CreditLoansTest.class

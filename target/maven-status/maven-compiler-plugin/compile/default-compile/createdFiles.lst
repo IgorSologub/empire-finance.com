@@ -1,0 +1,15 @@
+pages\mortgage\MortgagePage.class
+constants\Constant$Footer.class
+pages\creditLoans\CreditLoansPage.class
+pages\base\BasePage.class
+common\Config.class
+constants\Constant$TimeoutVariables.class
+constants\Constant$Header.class
+pages\order\OrderPage.class
+constants\Constant$Reviews.class
+constants\Constant$Urls.class
+pages\loans\LoansPage.class
+constants\Constant.class
+common\CommonActions.class
+pages\main\MainPage.class
+pages\team\TeamPage.class
