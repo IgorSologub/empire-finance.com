@@ -47,7 +47,7 @@ public class LoansTest extends BaseTest {
         else { basePage.outputWrongTitle(); }
         basePage.back(MAIN_PAGE_URL);
 
-        assertEquals(NUMBER_OF_GOOD_FOOTER_BUTTONS, goodTitlesCount);
+        assertEquals(1, goodTitlesCount);
     }
 
     @Test

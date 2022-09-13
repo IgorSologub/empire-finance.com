@@ -63,7 +63,8 @@ public class Constant {
                 "Fast Personal Loans in Minutes",
                 "fixed mortgage rates",
                 "FHA Loan Rates",
-                "VA Loan Rates"
+                "VA Loan Rates",
+                "Empire Finance"
         );
         public static final List<String> AUTHORS_TITLES = Arrays.asList(
                 "Jonah Collins",
