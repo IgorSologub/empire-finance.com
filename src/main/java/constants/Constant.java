@@ -78,7 +78,7 @@ public class Constant {
         public static final int NUMBER_OF_BEST_LOANS_BUTTONS_LOANS_PAGE = 6;
         public static final int NUMBER_OF_APPLY_NOW_BUTTONS_CREDIT_LOANS_PAGE = 5;
         public static final int NUMBER_OF_BEST_REWARDS_CARDS_BUTTONS_CREDIT_LOANS_PAGE = 5;
-        public static final int NUMBER_OF_READ_REVIEW_BUTTONS_MORTGAGE_PAGE = 12;
+        public static final int NUMBER_OF_READ_REVIEW_BUTTONS_MORTGAGE_PAGE = 8;
         public static final int NUMBER_OF_RELATED_LINKS_BUTTONS_MORTGAGE_PAGE = 5;
         public static final int NUMBER_OF_AUTHOR_BUTTONS_TEAM_PAGE = 4;
 

@@ -40,15 +40,13 @@ public class LoansTest extends BaseTest {
     @Test
     public void footerButtonsTest () {
         int goodTitlesCount = 0;
-        for (int i = 1; i <= NUMBER_OF_GOOD_FOOTER_BUTTONS; i++) {
-            if (i == 7) {i++; goodTitlesCount++;}
-            basePage.waitOneSeconds();
-            basePage.footerButtonClick(i);
-            basePage.waitOneSeconds();
-            if (basePage.checkTitles(FOOTER_TITLES)) { goodTitlesCount++; }
-            else { basePage.outputWrongTitle(); }
-            basePage.back(MAIN_PAGE_URL);
-        }
+        basePage.waitOneSeconds();
+        basePage.footerButtonClick(1);
+        basePage.waitOneSeconds();
+        if (basePage.checkTitles(FOOTER_TITLES)) { goodTitlesCount++; }
+        else { basePage.outputWrongTitle(); }
+        basePage.back(MAIN_PAGE_URL);
+
         assertEquals(NUMBER_OF_GOOD_FOOTER_BUTTONS, goodTitlesCount);
     }
 
