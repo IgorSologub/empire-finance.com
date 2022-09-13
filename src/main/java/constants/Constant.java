@@ -36,7 +36,9 @@ public class Constant {
                 "Apply Online on Empire Finance",
                 "Get Fast on Empire Finance",
                 "Fast Personal Loans",
-                "Advices on Empire Finance"
+                "Advices on Empire Finance",
+                "Best Loans",
+                "Current mortgage rates for"
         );
         public static final int NUMBER_OF_GOOD_FOOTER_BUTTONS = 5;
     }
@@ -73,7 +75,7 @@ public class Constant {
         public static final int NUMBER_OF_BROWSER_CATEGORIES_BUTTONS_MAIN_PAGE = 6;
         public static final int NUMBER_OF_READ_REVIEW_BUTTONS_MAIN_PAGE = 6;
         public static final int NUMBER_OF_READ_REVIEW_BUTTONS_LOANS_PAGE = 12;
-        public static final int NUMBER_OF_BEST_LOANS_BUTTONS_LOANS_PAGE = 8;
+        public static final int NUMBER_OF_BEST_LOANS_BUTTONS_LOANS_PAGE = 6;
         public static final int NUMBER_OF_APPLY_NOW_BUTTONS_CREDIT_LOANS_PAGE = 5;
         public static final int NUMBER_OF_BEST_REWARDS_CARDS_BUTTONS_CREDIT_LOANS_PAGE = 5;
         public static final int NUMBER_OF_READ_REVIEW_BUTTONS_MORTGAGE_PAGE = 12;
