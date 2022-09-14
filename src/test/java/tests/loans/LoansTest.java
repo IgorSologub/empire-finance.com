@@ -38,19 +38,6 @@ public class LoansTest extends BaseTest {
     }
 
     @Test
-    public void footerButtonsTest () {
-        int goodTitlesCount = 0;
-        basePage.waitOneSeconds();
-        basePage.footerButtonClick(1);
-        basePage.waitOneSeconds();
-        if (basePage.checkTitles(FOOTER_TITLES)) { goodTitlesCount++; }
-        else { basePage.outputWrongTitle(); }
-        basePage.back(MAIN_PAGE_URL);
-
-        assertEquals(1, goodTitlesCount);
-    }
-
-    @Test
     public void mainLogoLinkTest () {
         basePage.mainLogoButtonClick();
         basePage.waitOneSeconds();
